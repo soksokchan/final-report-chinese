@@ -1,0 +1,260 @@
+* {
+  font-family: "cwTeXYen", "Ubuntu";
+}
+
+li {
+  list-style-type: none;
+}
+
+.card {
+  display: none;
+}
+
+.part_b {
+  display: block;
+}
+
+.p_a {
+  background-color: #ff4545;
+}
+
+.navbar {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: cover;
+  height: 50px;
+  font-size: 2vh;
+  padding: 0px;
+  top: 0px;
+  background-color: #ff9867;
+}
+.navbar .navbar-nav a {
+  color: #FFFFFF;
+}
+
+.nav1 {
+  background-color: #ff9867;
+}
+.nav1 a {
+  font-size: 3vh;
+}
+.nav1 .navbar-right a:hover:not(.active) {
+  background-color: #ff9867;
+  color: #000;
+}
+
+.navbar-nav .dropdown-content {
+  display: none;
+}
+.navbar-nav a:hover:not(.active) {
+  background-color: #ff4545;
+  color: #ffedb2;
+  height: 50px;
+}
+
+.dropdown:hover .abc {
+  background-color: #ff4545;
+  color: #ffedb2;
+}
+.dropdown:hover a {
+  background-color: #ff9867;
+}
+.dropdown:hover .dropdown-content {
+  font-size: 1vh;
+  display: block;
+}
+.dropdown:hover .dropdown-content a {
+  padding: 0px;
+}
+.dropdown:hover .dropdown-content a:hover:not(.active) {
+  background-color: #ff4545;
+  color: #ffedb2;
+  height: 25px;
+}
+
+.dropdown {
+  min-width: 100px;
+  z-index: 1;
+}
+.dropdown a {
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navbar-brand {
+  font-size: 1.5vh;
+  color: #FFFFFF;
+  background-color: #ffedb2;
+  width: cover;
+  height: 50px;
+}
+.navbar-brand img {
+  height: 5vh;
+  padding: 0px 0px 8px 0px;
+}
+
+section#home {
+  border: solid 0.1px #ffedb2;
+  background-color: #ffedb2;
+  text-align: center;
+}
+section#home .b1 button, section#home .b2 button, section#home .b3 button, section#home .b4 button {
+  background-color: rgba(255, 0, 0, 0);
+  border: 0px solid;
+  height: 28vh;
+  width: 23vw;
+  background-size: cover;
+}
+section#home .b1 .button {
+  background-image: url(https://i.postimg.cc/mZK8fQJn/bg-06.png);
+}
+section#home .b2 .button {
+  background-image: url(https://i.postimg.cc/4nCKL488/bg-07.png);
+}
+section#home .b3 .button {
+  background-image: url(https://i.postimg.cc/0jZ9CRTJ/bg-08.png);
+}
+section#home .b4 .button {
+  background-image: url(https://i.postimg.cc/VvvqY1WY/bg-1212-12.png);
+}
+section#home .b11 button, section#home .b12 button, section#home .b13 button, section#home .b14 button {
+  background-color: rgba(255, 0, 0, 0);
+  border: 0px solid;
+  height: 70px;
+  width: 120px;
+  background-size: cover;
+  background-image: url(https://i.postimg.cc/C5nBsn4B/bg-09.png);
+}
+
+section#section_airport {
+  border: solid 0.1px #ffedb2;
+  background-color: #ffedb2;
+}
+section#section_airport .card {
+  background-color: #fff;
+}
+section#section_airport p, section#section_airport h2 {
+  font-size: 3vh;
+}
+section#section_airport a, section#section_airport p1 {
+  font-size: 2.1vh;
+}
+section#section_airport h2 {
+  text-align: center;
+  color: #aedef5;
+}
+section#section_airport button {
+  height: 30px;
+  width: 30px;
+  background-image: url(https://image.flaticon.com/icons/svg/180/180000.svg);
+  background-size: cover;
+  background-color: rgba(255, 0, 0, 0);
+  border: 0px solid;
+}
+section#section_airport iframe {
+  background-image: url(https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.0-9/70628885_2362122664012659_3585271869286121472_o.jpg?_nc_cat=108&_nc_oc=AQmGUGHh8RBchwsxnwePZ2GHv2jlpipZhb-0XUtnZwMtRchOpFbd3uBuDR7JlNp05Yo&_nc_ht=scontent.ftpe7-3.fna&oh=d8ad35f6154c9e29f492cc1c070f5d40&oe=5E1F0C0A);
+  background-size: cover;
+  width: 58vw;
+  height: 73vh;
+  border: solid 5px #aedef5;
+}
+
+section#section_different {
+  border: solid 0.1px #ffedb2;
+  text-align: center;
+  background-color: #ffedb2;
+}
+section#section_different .card {
+  background-color: #fff;
+}
+section#section_different iframe {
+  height: 94%;
+  width: 100%;
+}
+section#section_different a {
+  font-size: 3vh;
+}
+
+section#section_introduction {
+  border: solid 0.1px #ffedb2;
+  background-color: #ffedb2;
+}
+section#section_introduction .card {
+  background-color: #fff;
+}
+section#section_introduction .card .col-sm-3 {
+  height: 580px;
+}
+section#section_introduction .video1 {
+  padding: 0px 3px 0px 3px;
+}
+section#section_introduction h2 {
+  font-size: 3.5vh;
+  text-align: center;
+  color: #1a294f;
+}
+section#section_introduction p1, section#section_introduction a {
+  font-size: 2.2vh;
+}
+section#section_introduction iframe {
+  background-image: url(http://www.ncyu.edu.tw/NewSite/images/opening.jpg);
+  background-size: cover;
+  height: 72vh;
+  width: 64vw;
+  border: solid 5px #1a294f;
+}
+
+section#section_manual {
+  border: solid 0.1px #ffedb2;
+  text-align: center;
+  background-color: #ffedb2;
+}
+section#section_manual .card {
+  background-color: #fff;
+}
+section#section_manual .card h2 {
+  color: #932023;
+}
+section#section_manual .card iframe {
+  border: solid 5px #932023;
+  height: 72vh;
+  width: 80vw;
+}
+
+.card {
+  width: 90vw;
+  height: 75vh;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 68px;
+  overflow: hidden;
+  box-shadow: 0px 25px 15px -10px rgba(0, 0, 0, 0.5);
+}
+.card a {
+  font-weight: bold;
+}
+.card a:hover:not(.active) {
+  color: #996699;
+  text-decoration: underline;
+}
+
+.card1 {
+  width: 100vw;
+  height: 75vh;
+  padding: 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+.card1 a {
+  font-weight: bold;
+}
+.card1 a:hover:not(.active) {
+  color: #996699;
+  text-decoration: underline;
+}
