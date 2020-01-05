@@ -1,0 +1,376 @@
+@charset "UTF-8";
+* {
+  font-family: "cwTeXYen", "Ubuntu";
+}
+
+li {
+  list-style-type: none;
+}
+
+.navbar, .part_b, .part_c, .part_d, .part_e {
+  display: none;
+}
+
+.navbar {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: cover;
+  height: 6vh;
+  font-size: 4vh;
+  font-size: 2vw;
+  padding: 0px;
+  background-color: #ff9867;
+  color: #000;
+}
+.navbar .navbar-nav {
+  background-color: #ff9867;
+}
+.navbar .navbar-nav a {
+  color: #000;
+}
+
+.navbar-nav a:hover:not(.active) {
+  background-color: #ff4545;
+  color: #ffedb2;
+}
+
+.dropdown:hover .abc {
+  background-color: #ff4545;
+  color: #ffedb2;
+}
+.dropdown:hover .da1 {
+  background-color: #ffedb2;
+  font-size: 1.2vw;
+  display: block;
+}
+.dropdown:hover .da1 a {
+  font-size: 1.6vw;
+  color: #000;
+}
+.dropdown:hover .da1 a:hover:not(.active) {
+  background-color: #ff4545;
+  color: #ffedb2;
+  display: none;
+}
+
+.dropdown {
+  z-index: 1;
+}
+.dropdown a {
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.navbar-header {
+  font-size: 35px;
+  color: #FFFFFF;
+  width: cover;
+}
+.navbar-header img {
+  height: 5vh;
+  padding: 0px 5px 5px 5px;
+}
+.navbar-header button {
+  background-image: url(https://image.flaticon.com/icons/svg/130/130917.svg);
+  background-size: cover;
+  height: 5vh;
+}
+
+.navbar-brand {
+  font-size: 35px;
+  color: #FFFFFF;
+  background-color: #ffbf87;
+  width: cover;
+  height: 50px;
+}
+.navbar-brand img {
+  height: 5.3vh;
+  padding: 0px 0px 8px 0px;
+}
+
+header.jumbotron {
+  border: solid 0.1px #fff;
+  background-color: #ffedb2;
+  background-size: cover;
+  background-image: url(http://www.ncyu.edu.tw/NewSite/images/opening.jpg);
+  text-align: center;
+}
+header.jumbotron .pia {
+  padding: 10px 0px 0px 10px;
+}
+header.jumbotron .flexslider {
+  background-color: #d3eaea;
+  width: 100%;
+  border: 10px solid;
+  border-color: #fff;
+  background-opacity: 0.3;
+}
+header.jumbotron .slides img {
+  width: 100%;
+}
+header.jumbotron button {
+  background-color: rgba(255, 0, 0, 0);
+  border: 0px solid;
+}
+header.jumbotron .b1 button {
+  background-color: #72be6b;
+  font-size: 4vh;
+  border: 0;
+  color: #fff;
+  border-radius: 10px;
+}
+header.jumbotron .b1 button:hover {
+  color: #72be6b;
+  background-color: #fff;
+}
+header.jumbotron .b2 button {
+  background-color: #e86977;
+  font-size: 4vh;
+  border: 0;
+  color: #fff;
+  border-radius: 10px;
+}
+header.jumbotron .b2 button:hover {
+  color: #e86977;
+  background-color: #fff;
+}
+header.jumbotron .col-sm-12 img {
+  max-width: 40vw;
+  max-height: 10vh;
+  height: auto;
+}
+
+section#section_airport {
+  border: solid 0.1px #ffedb2;
+  background-color: #ffedb2;
+}
+section#section_airport h2 {
+  font-size: 5vh;
+  text-align: center;
+}
+section#section_airport .card {
+  background-color: #fff;
+  padding: 0px 30px 10px 30px;
+}
+section#section_airport .card .p_a, section#section_airport .card h2 {
+  text-align: center;
+}
+section#section_airport .card .col-sm-12 {
+  text-align: center;
+}
+section#section_airport .card .col-sm-12 img {
+  max-height: 100vh;
+  max-width: 100vw;
+}
+section#section_airport .card .col-sm-6 button {
+  background-color: #ff9867;
+  border: 1px solid #fff;
+  font-size: 3vh;
+  border-radius: 10px 10px 10px 10px;
+}
+section#section_airport .card .goback {
+  text-align: center;
+}
+section#section_airport .card .goback .w1 button {
+  background-color: #ff9867;
+  border: 0px solid;
+  font-size: 2vh;
+  text-align: center;
+}
+section#section_airport .card .col-sm-3 img {
+  height: 280px;
+  width: cover;
+}
+section#section_airport p {
+  font-size: 3vh;
+  text-align: center;
+}
+section#section_airport a, section#section_airport p1 {
+  font-size: 2.43vh;
+  padding: 0px 0px 0px 0px;
+}
+section#section_airport iframe {
+  background-image: url(https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.0-9/70628885_2362122664012659_3585271869286121472_o.jpg?_nc_cat=108&_nc_oc=AQmGUGHh8RBchwsxnwePZ2GHv2jlpipZhb-0XUtnZwMtRchOpFbd3uBuDR7JlNp05Yo&_nc_ht=scontent.ftpe7-3.fna&oh=d8ad35f6154c9e29f492cc1c070f5d40&oe=5E1F0C0A);
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  max-height: 70vh;
+}
+
+section#section_different {
+  border: solid 0.1px #ffedb2;
+  text-align: center;
+  background-color: #ffedb2;
+}
+section#section_different h2 {
+  font-size: 5vh;
+  text-align: center;
+}
+section#section_different .card {
+  background-color: #fff;
+}
+section#section_different iframe {
+  width: 100%;
+  height: 70vh;
+  max-height: 65vh;
+  max-width: 100vw;
+}
+section#section_different a {
+  font-size: 3vh;
+}
+
+section#section_introduction {
+  border: solid 0.1px #ffedb2;
+  background-color: #ffedb2;
+}
+section#section_introduction h2 {
+  font-size: 5vh;
+  text-align: center;
+}
+section#section_introduction .background {
+  background-color: #ffedb2;
+}
+section#section_introduction .card {
+  background-color: #fff;
+}
+section#section_introduction button {
+  background-color: rgba(255, 0, 0, 0);
+  border: 0px solid;
+  font-size: 5vh;
+  text-align: center;
+}
+section#section_introduction .t1, section#section_introduction .t2, section#section_introduction .t3 {
+  text-align: center;
+}
+section#section_introduction .t1 .w1, section#section_introduction .t2 .w1, section#section_introduction .t3 .w1 {
+  text-align: center;
+}
+section#section_introduction .t1 .w1 button, section#section_introduction .t2 .w1 button, section#section_introduction .t3 .w1 button {
+  font-size: 2vh;
+  border-radius: 10px 10px 10px 10px;
+}
+section#section_introduction .t1 iframe, section#section_introduction .t2 iframe, section#section_introduction .t3 iframe {
+  width: 100%;
+  height: 100%;
+  height: 50vh;
+  max-height: 35vh;
+}
+section#section_introduction .t1 img, section#section_introduction .t2 img, section#section_introduction .t3 img {
+  max-width: 35vw;
+  max-height: 50vh;
+}
+section#section_introduction .t1 button {
+  background-color: #ff9867;
+}
+section#section_introduction .t2 button {
+  background-color: #ffbf87;
+}
+section#section_introduction .t3 button {
+  background-color: #ff4545;
+  color: #fff;
+}
+section#section_introduction .b {
+  text-align: center;
+}
+section#section_introduction .d1 button {
+  background-image: url(https://pic.pimg.tw/bajenny/1196849650.jpg);
+  background-size: cover;
+}
+section#section_introduction .d2 button {
+  background-image: url(https://mapio.net/images-p/44214774.jpg);
+  background-size: cover;
+}
+section#section_introduction .d3 button {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/de/NCYU_Sinmin_Campus030906.jpg);
+  background-size: cover;
+}
+section#section_introduction .col-sm-4 button {
+  width: 32vw;
+  height: 70vh;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 60px;
+  transition: all 0.5s;
+  cursor: pointer;
+  border: none;
+}
+section#section_introduction .col-sm-4 button:hover {
+  opacity: 0.6;
+  color: #ff4545;
+  text-shadow: -1px -1px 0 #ffedb2, 1px -1px 0 #ffedb2, -1px 1px 0 #ffedb2, 1px 1px 0 #ffedb2;
+}
+section#section_introduction .col-sm-4 .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5;
+}
+section#section_introduction .col-sm-4 .button span:after {
+  content: "»";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+section#section_introduction .col-sm-4 .button:hover span {
+  padding-right: 25px;
+}
+section#section_introduction .col-sm-4 .button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+section#section_manual {
+  border: solid 0.1px #ffedb2;
+  background-color: #ffedb2;
+  text-align: center;
+}
+section#section_manual h2 {
+  font-size: 5vh;
+  text-align: center;
+}
+section#section_manual .card {
+  background-color: #fff;
+}
+section#section_manual .b1, section#section_manual .b2 {
+  font-size: 2vh;
+}
+section#section_manual .b1 button, section#section_manual .b2 button {
+  border: 0px solid;
+  background-color: #ff9867;
+  border-radius: 10px;
+}
+section#section_manual .ppt img {
+  width: 100%;
+  height: auto;
+  max-height: 67vh;
+}
+section#section_manual .other img {
+  width: 3%;
+  height: auto;
+}
+
+.background {
+  margin-top: 10vh;
+  max-width: 100%;
+}
+
+.card {
+  max-width: 96vw;
+  max-height: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+  overflow: hidden;
+  box-shadow: 0px 25px 15px -10px rgba(0, 0, 0, 0.5);
+  background-size: cover;
+}
+.card a {
+  font-weight: bold;
+}
+.card a:hover:not(.active) {
+  color: #996699;
+  text-decoration: underline;
+}
